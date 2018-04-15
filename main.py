@@ -6,7 +6,7 @@ from django.utils import simplejson as json
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import util
 
-SERVICE_KEY = "y_NbAkKc66ryYTWUXYEu"
+SERVICE_KEY = "f909fdd8dba24577a71048f06717934b"
 
 #Half of the code is just dedicated to URL shortening, so that we can fit the MP3's URL in an SMS:
 def shorten(url):
